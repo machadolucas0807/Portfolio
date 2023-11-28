@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.png" type="image/x-icon">
+    <title>Midias em HTML</title>
+</head>
+
+<body>
+    <h1>Midias em HTML</h1>
+    <hr>
+
+    <h2><ins>1. Imagens Dinâmicas</ins></h2>
+        <p>Abra este site em diversos dispositivos ou redimensione seu navegador.</p>
+        <picture> <!--Precisa ser de cima para baixo-->
+            <source media="(max-width: 650px)" srcset="Imagens\espaco-p.jpg" type="image/jpg">
+            <source media="(max-width: 950px)" srcset="Imagens\espaco-m.jpg" type="image/jpg">
+            <img src="Imagens/espaco-g.jpg" alt="Imagem Flexivel">
+        </picture>
+        <p>
+            Foto de <a href="https://unsplash.com/pt-br/@pramodtiwari?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pramod Tiwari</a> na <a href="https://unsplash.com/pt-br/fotografias/um-homem-parado-no-meio-de-um-deserto-NcYsaW5pV00?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>.
+        </p>
+        <br>
+    
+
+    <h2><ins>2. Áudio em HTML</ins></h2>
+        <audio preload="metadata" controls loop>
+            <!--preload="metadata" carrega apenas algumas informacoes do audio-->
+            <!--controls = adiciona controlador do audio-->
+            <source src="Audios/Audio.mp3" type="audio/mpeg">
+            <!--mp3 = mpeg-->
+            <p>Infelizmente seu navegador não consegue reproduzir o áudio. <a href="Audios/Audio.mp3" type="audio/mpeg" download="Audio.mp3">Clique aqui</a> para baixar o arquivo MP3.</p> 
+        </audio>
+        <p>Audio teste do <a href="https://studio.youtube.com/channel/UCegRpt7g6WPkCg-BJqUx7vA">Youtube Studio</a>.</p>
+        <br>
+
+    <h2><ins>3. Vídeo em HTML</ins></h2>
+        <video width="560" controls preload="metadata" poster="Imagens/mar-png.png" loop>
+            <source src="Videos/video.mp4" type="video/mp4">
+            <p>Infelizmente seu navegador não consegue reproduzir este vídeo. <a href="Videos/video.mp4" type="video/mp4" download="video.mp4">Clique aqui</a> para baixar o arquivo MP4.</p> 
+        </video>
+        <p>
+            Vídeo de <a href="https://www.pexels.com/pt-br/video/18927551/" target="_blank" rel="external" hreflang="pt-br">Oren Fisher</a>.
+        </p>
+        <br>
+
+        <h2><ins>4. Videos em Hospedagem Externa</ins></h2>
+        <p>Inserção de um video hospedado em uma plataforma externa:</p>
+        <ol type="1">
+            <li>Acessar o video desejado;</li>
+            <li>Clique em <ins>Compartilhar</ins>;</li>
+            <li>Clique em <ins>Incorporar</ins>;</li>
+            <li>Copie o código listado e cole no HTML.</li>
+        </ol>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xEKo29OWILE?si=39e7IuPnetl9VrGu&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
+</html>
