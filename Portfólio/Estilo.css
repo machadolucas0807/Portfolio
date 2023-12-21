@@ -23,3 +23,7 @@ ul
     {
         color: aliceblue;
     }
+abbr
+    {
+        color: rgba(0, 162, 255, 0.705);
+    }
