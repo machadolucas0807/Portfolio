@@ -3,7 +3,7 @@
 
 body
     {
-        background-color: rgba(0, 0, 0, 0.884);
+        background-color: rgb(0, 0, 0);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
     }
@@ -11,15 +11,15 @@ h1
     {
         color: aliceblue;
     }
+strong
+    {
+        color: (22D4FD);
+    }
 h2
     {
         color: aliceblue;
     }
 p
-    {
-        color: aliceblue;
-    }
-ul
     {
         color: aliceblue;
     }
