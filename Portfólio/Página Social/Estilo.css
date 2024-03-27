@@ -4,13 +4,13 @@
 body
     {
         background-color: #595959;
+        color: aliceblue;
     }
 
 h1
     {
         border: #22D4FD;
-        color: aliceblue;
-        font-size: 40px;
+        font-size: 45px;
     }
 
 strong
@@ -20,7 +20,6 @@ strong
 
 p
     {
-        color: aliceblue;
         font-size: 30px;
     }
     
