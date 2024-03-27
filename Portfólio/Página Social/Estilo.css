@@ -4,23 +4,26 @@
 body
     {
         background-color: #595959;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+
 h1
     {
         border: #22D4FD;
         color: aliceblue;
         font-size: 40px;
     }
+
 strong
     {
         color: #22D4FD;
     }
+
 p
     {
         color: aliceblue;
         font-size: 30px;
     }
+    
 abbr
     {
         color: rgba(0, 162, 255, 0.705);
