@@ -4,13 +4,13 @@
 body
     {
         background-color: #595959;
-        color: aliceblue;
+        color: #F6F6F6;
     }
 
 h1
     {
         border: #22D4FD;
-        font-size: 45px;
+        font-size: 40px;
     }
 
 strong
@@ -25,5 +25,5 @@ p
     
 abbr
     {
-        color: rgba(0, 162, 255, 0.705);
+        color: #000;
     }
